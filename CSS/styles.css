@@ -1,0 +1,132 @@
+:root{
+    --cafe:#5b281d;
+    --colorcuadros:#0D171F;
+    --colorgeneral:#0D171F;
+    --naranja:#DC9D47 ;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.colorgeneral {
+    background-color: var(--colorgeneral);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--colorgeneral);
+}
+a {
+    text-decoration: none;
+}
+.color {
+    background:var(--colorcuadros);
+}
+.naranja {
+    color: var(--naranja);   
+}
+.bnaranja {
+    background: var(--naranja);   
+}
+.bordenaranja {
+    border: solid 1px var(--naranja);
+}
+.padre {
+    display: flex;
+    flex-flow: column nowrap
+}
+.hovernaranja:hover{
+    color: orange;   
+}
+.bhovernaranja:hover{
+    background-color: var(--naranja);
+    color: white;
+}
+.hovercafe:hover{
+    background-color: var(--cafe);   
+}
+.hoverrojo:hover{
+   background: rgb(255, 0, 0);   
+}
+.textwhite:hover{
+    color: white;
+}
+.abril{
+    font-family: 'Abril Fatface', cursive;
+}
+.simoneta{
+    font-family: 'Simonetta', cursive;
+}
+.unbouned{
+    font-family: 'Unbounded', cursive;
+}
+.cafe {
+    color: var(--cafe);
+}
+.footer {
+    display: grid;
+    font-size: 10px;
+    background: orange;
+    color: white;
+    padding: 40px;
+}
+    .navfooter a{
+        color: var(--cafe);
+        font-size: 40px;
+        padding:1px 10px 1px 10px;
+    }
+    .navfooter a:hover{
+        color: white;
+    }
+
+.fondo{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+.fondo2{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    background-image: url(/imagenes/fondo2.jpg);
+}
+.opacidad{
+    opacity: 0.7;
+    transition: all;
+}
+.desplazamiento{
+    position: sticky;
+    top: 0;
+}
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ocultar {
+    opacity: 0;
+}
+.animar {
+    animation: aparecer 1.3s;
+}    
+/* IMAGE HOVERRRRRRRRRRRRRRRRRR */
+[class^="imghvr-"] figcaption,
+[class*=" imghvr-"] figcaption {
+    background-color: #5818cf;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
