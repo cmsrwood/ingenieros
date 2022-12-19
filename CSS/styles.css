@@ -92,7 +92,7 @@ a {
     background-position: center;
     display: table;
     background-attachment: fixed;
-    background-image: url(imagenes/fondo2.jpg);
+    background-image: url(../imagenes/fondo2.jpg);
 }
 .opacidad{
     opacity: 0.7;
