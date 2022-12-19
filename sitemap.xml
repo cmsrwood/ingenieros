@@ -4,25 +4,32 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://ingenierosar.cf/</loc>
-  <lastmod>2022-12-19T21:38:13+00:00</lastmod>
+  <lastmod>2022-12-19T22:52:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ingenierosar.cf/index.html</loc>
-  <lastmod>2022-12-19T21:38:13+00:00</lastmod>
+  <lastmod>2022-12-19T22:52:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ingenierosar.cf/html/soluciones.html</loc>
-  <lastmod>2022-12-19T21:38:13+00:00</lastmod>
+  <lastmod>2022-12-19T22:52:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ingenierosar.cf/html/nosotros.html</loc>
-  <lastmod>2022-12-19T21:38:13+00:00</lastmod>
+  <lastmod>2022-12-19T22:52:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ingenierosar.cf/html/blog.html</loc>
+  <lastmod>2022-12-19T22:52:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
