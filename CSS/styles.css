@@ -127,3 +127,11 @@ a {
     right: 0;
     color: #ffffff;
 }
+.stars{
+    background-image: url(imagenes/lgstars.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
