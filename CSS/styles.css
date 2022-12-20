@@ -67,7 +67,7 @@ a {
 .footer {
     display: grid;
     font-size: 10px;
-    background: orange;
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
     padding: 40px;
 }
