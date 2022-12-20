@@ -65,11 +65,8 @@ a {
     color: var(--cafe);
 }
 .footer {
-    display: grid;
-    font-size: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
-    padding: 40px;
 }
     .navfooter a{
         color: var(--cafe);
