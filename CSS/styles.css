@@ -8,6 +8,7 @@
 *{
     margin: 0px;
     padding:0px;
+    box-sizing: border-box;
     color: white;
 }
 .colorgeneral {
@@ -84,10 +85,8 @@ a {
     display: table;
 }
 .fondo2{
-    width: 100%;
     background-size: cover;
     background-position: center;
-    display: table;
     background-attachment: fixed;
     background-image: url(../imagenes/fondo2.jpg);
 }
