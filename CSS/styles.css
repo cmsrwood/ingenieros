@@ -146,6 +146,7 @@ a {
     background-size: cover;
     background-position: center;
     display: table;
+    background-attachment: fixed;
 }
 .contacto {
     background-image: url(/imagenes/contacto/1.jpg);
@@ -153,4 +154,5 @@ a {
     background-size: cover;
     background-position: center;
     display: table;
+    background-attachment: fixed;
 }
