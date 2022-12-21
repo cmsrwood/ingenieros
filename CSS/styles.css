@@ -133,3 +133,11 @@ a {
     display: table;
     background-attachment: fixed;
 }
+.fondo1{
+    background-image: url(/imagenes/fondo1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
