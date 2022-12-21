@@ -147,3 +147,10 @@ a {
     background-position: center;
     display: table;
 }
+.contacto {
+    background-image: url(/imagenes/contacto/1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
