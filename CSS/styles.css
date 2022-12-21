@@ -35,7 +35,8 @@ a {
 }
 .padre {
     display: flex;
-    flex-flow: column nowrap
+    flex-flow: column nowrap;
+    box-sizing: border-box;
 }
 .hovernaranja:hover{
     color: orange;   
