@@ -139,5 +139,11 @@ a {
     background-size: cover;
     background-position: center;
     display: table;
-    background-attachment: fixed;
+}
+.fondo3{
+    background-image: url(/imagenes/fondo3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
 }
