@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Simonetta&display=swap" rel="stylesheet">
 
     <!-- LIBRERIAS CSS -->  
-    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="CSS/imagehover.css">
     <link rel="stylesheet" href="CSS/font-awesome.min.css">
@@ -23,7 +23,7 @@
     <!-- LOGO ICON -->
     <link rel="apple-touch-icon" href="imagenes/logo.ico">
     <link rel="shortcut icon" href="imagenes/logo.ico">
-    <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/acf73d_5bd9f9f8b5844b9d998eea9c2f2da66e%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/acf73d_5bd9f9f8b5844b9d998eea9c2f2da66e%7Emv2.png">
+    <link rel="icon" sizes="192x192" href="imagenes/logo.ico">
     <!-- META  -->
     <meta name="description" content="Asesorías, Consultorías y Auditorías en Ingeniería">
 </head>
@@ -33,10 +33,10 @@
 <div class="padre">  
 <!-- HEADER -->
 <header>
-  <nav class="navbar navbar-expand-xl navbar-dark fixed-top colorgeneral text-center align-items-center shadow">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-light text-center align-items-center shadow">
     <div class="container-fluid">
       <a class="navbar-brand p-3 me-5" href="#">
-        <strong class="">Ingenieros</strong> 
+        <strong class="unbouned">Ingenieros</strong> 
         <img src="imagenes/logo.ico" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,20 +45,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house pe-1"></i>Inicio</a>
+            <a class="nav-link activ hovernaranja" aria-current="page" href="index.html"><i class="bi bi-house pe-1"></i>Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html/soluciones.html"><i class="bi bi-lightbulb pe-1"></i>Soluciones</a>
+            <a class="nav-link hovernaranja" href="html/soluciones.html">
+              <i class="bi bi-lightbulb pe-1"></i>Soluciones
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html/nosotros.html"><i class="bi bi-people pe-1"></i>Nosotros</a>
+            <a class="nav-link hovernaranja" href="html/nosotros.html"><i class="bi bi-people pe-1"></i>Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html/blog.html"><i class="bi bi-book pe-1"></i>Blog</a>
+            <a class="nav-link hovernaranja" href="html/blog.html"><i class="bi bi-book pe-1"></i>Blog</a>
           </li>
         </ul>
-        <li class="nav-item dropdown list-unstyled px-5">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class=" dropdown list-unstyled px-5">
+          <a class="nav-link dropdown-toggle hovernaranja" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Contactanos
           </a>
           <ul class="dropdown-menu dropdown-menu-dark shadow">
@@ -74,7 +76,7 @@
 <main class="">
   <section class="text-light d-none d-lg-block text-center">
     <div class="container-fluid p-5 position-absolute ">
-      <h1 class="display-2 my-5 pt-5 unbouned animate__animated animate__fadeInDown">Ingenieros AR | Colombia</h1>
+      <h1 class="display-2 my-5 pt-5 unbouned animate__animated animate__fadeInDown naranja">Ingenieros AR | Colombia</h1>
       <p class="fs-2 my-5 opacidad animate__animated animate__fadeInUp">Asesorías, Consultorías y Auditorías  <br>en Ingeniería</p>
     </div>
         <video src="videos/fondo.mp4"muted autoplay loop class="fondo"></video>
@@ -98,14 +100,14 @@
     <!-- cuadros -->
     <div class="container text-center mt-5">
       <h3 class="py-2 ">Nuestros servicios llevarán su negocio al siguiente nivel</h3>
-      <p class="text-secondary "> Contamos con más de 9 años de experiencia ofreciendo nuestros servicios a pequeñas, medianas y grandes empresas, a través de todo el territorio nacional. </p>
+      <p class=" "> Contamos con más de 9 años de experiencia ofreciendo nuestros servicios a pequeñas, medianas y grandes empresas, a través de todo el territorio nacional. </p>
     </div>
 
       <div class="container-fluid text-center my-5 p-5">
         <div class="row justify-content-center ">
         <!-- card -->
           <div class="card colorgeneral border border-secondary  col-12 col-sm-6 col-md-3 wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
-            <i class="bi bi-lightning fs-1 text-muted p-5"></i>
+            <i class="bi bi-lightning fs-1 naranja p-5"></i>
             <div class="card-body">
               <h5 class="card-title naranja fw-bold">
                 Sistemas Ininterrumpidos de Potencia (UPS)</h5>
@@ -114,7 +116,7 @@
           </div>
           <!--  -->
           <div class="card colorgeneral border border-secondary col-12 col-sm-6 col-md-3  wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
-            <i class="bi bi-menu-button-wide fs-1 text-muted p-5"></i>
+            <i class="bi bi-menu-button-wide fs-1 naranja p-5"></i>
             <div class="card-body">
               <h5 class="card-title naranja fw-bold">
                 Programas de mejoramiento continuo en planta</h5>
@@ -123,7 +125,7 @@
           </div>
           <!--  -->
           <div class="card colorgeneral border border-secondary  col-12 col-sm-6 col-md-3 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
-            <i class="bi bi-shield-check fs-1 text-muted p-5"></i>
+            <i class="bi bi-shield-check fs-1 p-5 naranja"></i>
             <div class="card-body">
               <h5 class="card-title naranja fw-bold">
                 Cursos, seminarios y capacitaciones</h5>
@@ -132,7 +134,7 @@
           </div>
           <!--  -->
           <div class="card colorgeneral border border-secondary col-12 col-sm-6 col-md-3 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
-            <i class="bi bi-headset fs-1 text-muted p-5"></i>
+            <i class="bi bi-headset fs-1 naranja p-5"></i>
             <div class="card-body">
               <h5 class="card-title naranja fw-bold">  Servicio al cliente completo y personalizado</h5>
               <p class="card-text">Acompañamiento continuo antes, durante, y después de adquirir nuestro servicios y/o productos.</p>
@@ -395,7 +397,7 @@ rel="stylesheet">
              <i class="material-icons icon-font-color">close</i>
            </button> 
          
-          <p>  <img src="imagenes/secretary.png" width="50">  Hola, ¿en que podemos ayudarle? </p>
+          <p>  <img src="imagenes/secretary.png" width="50">  Hola ¿En que podemos ayudarte? </p>
           
        </div>
        <div class="content-whatsapp -bottom ">

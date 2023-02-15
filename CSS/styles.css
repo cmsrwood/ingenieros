@@ -1,7 +1,6 @@
 :root{
     --cafe:#5b281d;
-    --colorcuadros:#0D171F;
-    --colorgeneral:#0D171F;
+    --colorgeneral:;
     --naranja:#DC9D47 ;
 }
 
@@ -9,7 +8,6 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    color: white;
 }
 .colorgeneral {
     background-color: var(--colorgeneral);
