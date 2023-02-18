@@ -118,6 +118,10 @@ a {
 .zoomhover:hover {
     transform: scale(1.2);
 }
+.zoomhover2:hover {
+    transform: scale(1.1);
+}
+
 .containerzoom{
     overflow: hidden;
     transition: all 500ms;
