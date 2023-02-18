@@ -114,7 +114,15 @@ a {
 }
 .animar {
     animation: aparecer 1.3s;
-}    
+}  
+.zoomhover:hover {
+    transform: scale(1.2);
+}
+.containerzoom{
+    overflow: hidden;
+    transition: all 500ms;
+}
+
 /* IMAGE HOVERRRRRRRRRRRRRRRRRR */
 [class^="imghvr-"] figcaption,
 [class*=" imghvr-"] figcaption {
