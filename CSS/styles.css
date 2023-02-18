@@ -1,6 +1,7 @@
 :root{
     --cafe:#5b281d;
     --naranja:#DC9D47 ;
+    --colorgeneral: whitesmoke;
 }
 
 *{
@@ -80,6 +81,9 @@ a {
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+.bggris {
+    background-color: whitesmoke;
 }
 .fondo2{
     background-size: cover;
